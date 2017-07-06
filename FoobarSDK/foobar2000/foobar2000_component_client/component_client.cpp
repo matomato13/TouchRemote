@@ -111,55 +111,12 @@ namespace {
 
 static foobar2000_client_impl g_client;
 
-#ifdef __cplusplus_cli
-
-#pragma managed
-
-void OnUnhandledException(System::Object^ sender, System::UnhandledExceptionEventArgs ^e)
-{
-    if (e->ExceptionObject == nullptr)
-    {
-        console::error("(empty exception object)");
-        return;
-    }
-
-    cli::array<unsigned char>^ bytes = System::Text::Encoding::UTF8->GetBytes(e->ExceptionObject->ToString());
-    int len = bytes->Length;
-		
-    pfc::string8 buffer;
-	void* ptr = buffer.lock_buffer(len);
-
-	System::Runtime::InteropServices::Marshal::Copy(bytes, 0, (System::IntPtr)ptr, len);
-
-	buffer.unlock_buffer();
-
-    console::error(buffer);
-}
-
-void InitCLR()
-{
-	System::AppDomain^ d = System::AppDomain::CurrentDomain;
-    d->UnhandledException += gcnew System::UnhandledExceptionEventHandler(&OnUnhandledException);
-}
-
-#pragma unmanaged
-
-#else
-
-void InitCLR()
-{
-}
-
-#endif
-
 extern "C"
 {
 	__declspec(dllexport) foobar2000_client * _cdecl foobar2000_get_interface(foobar2000_api * p_api,HINSTANCE hIns)
 	{
 		g_hIns = hIns;
 		g_foobar2000_api = p_api;
-
-		InitCLR();
 
 		return &g_client;
 	}

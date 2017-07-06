@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchRemote.Interfaces", "TouchRemote.Interfaces\TouchRemote.Interfaces.csproj", "{EBFE1069-036C-4C2E-99AA-3F67DDAE3922}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pfc", "..\FoobarSDK\pfc\pfc.vcxproj", "{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}"
@@ -47,8 +49,9 @@ Global
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Debug|x64.ActiveCfg = Debug|x64
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Debug|x64.Build.0 = Debug|x64
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Any CPU.ActiveCfg = Release|x64
-		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Mixed Platforms.ActiveCfg = Release + CLR|Win32
-		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Mixed Platforms.Build.0 = Release + CLR|Win32
+		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Mixed Platforms.Deploy.0 = Release|Win32
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Win32.ActiveCfg = Release|Win32
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|Win32.Build.0 = Release|Win32
 		{EBFFFB4E-261D-44D3-B89C-957B31A0BF9C}.Release|x64.ActiveCfg = Release|x64
@@ -61,8 +64,9 @@ Global
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Debug|x64.ActiveCfg = Debug|x64
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Debug|x64.Build.0 = Debug|x64
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Any CPU.ActiveCfg = Release|x64
-		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Mixed Platforms.ActiveCfg = Release + CLR|Win32
-		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Mixed Platforms.Build.0 = Release + CLR|Win32
+		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Mixed Platforms.Deploy.0 = Release|Win32
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Win32.ActiveCfg = Release|Win32
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|Win32.Build.0 = Release|Win32
 		{E8091321-D79D-4575-86EF-064EA1A4A20D}.Release|x64.ActiveCfg = Release|x64
@@ -75,8 +79,9 @@ Global
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Debug|x64.ActiveCfg = Debug|x64
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Debug|x64.Build.0 = Debug|x64
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Any CPU.ActiveCfg = Release|x64
-		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Mixed Platforms.ActiveCfg = Release + CLR|Win32
-		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Mixed Platforms.Build.0 = Release + CLR|Win32
+		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Mixed Platforms.Deploy.0 = Release|Win32
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Win32.ActiveCfg = Release|Win32
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|Win32.Build.0 = Release|Win32
 		{71AD2674-065B-48F5-B8B0-E1F9D3892081}.Release|x64.ActiveCfg = Release|x64

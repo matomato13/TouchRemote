@@ -29,3 +29,4 @@ foo_touchremote.opensdf
 *.vcproj.user
 *.csproj.user
 *.vcxproj.user
+foo_touchremote/.vs/
