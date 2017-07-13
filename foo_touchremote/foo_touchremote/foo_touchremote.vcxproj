@@ -69,7 +69,22 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AssemblyDebug>true</AssemblyDebug>
       <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>C:\mmasciotra\Repos\TouchRemote\FoobarSDK\foobar2000\shared\shared.lib;shlwapi.lib;C:\mmasciotra\Repos\TouchRemote\FoobarSDK\foobar2000\foobar2000_component_client\Debug\foobar2000_component_client.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "C:\mmasciotra\foobar2000\components\"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying output file to test directory...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -88,7 +103,22 @@
       <DelaySign>
       </DelaySign>
       <CLRUnmanagedCodeCheck>true</CLRUnmanagedCodeCheck>
+      <AdditionalDependencies>C:\mmasciotra\Repos\TouchRemote\FoobarSDK\foobar2000\shared\shared.lib;shlwapi.lib;C:\mmasciotra\Repos\TouchRemote\FoobarSDK\foobar2000\foobar2000_component_client\Debug\foobar2000_component_client.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" "C:\mmasciotra\foobar2000\components\"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying output file to test directory...</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\FoobarSDK\foobar2000\foobar2000_component_client\foobar2000_component_client.vcxproj">

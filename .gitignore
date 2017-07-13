@@ -30,3 +30,13 @@ foo_touchremote.opensdf
 *.csproj.user
 *.vcxproj.user
 foo_touchremote/.vs/
+FoobarSDK/foobar2000/ATLHelpers/Debug/
+FoobarSDK/foobar2000/ATLHelpers/x64/
+FoobarSDK/foobar2000/foo_sample/.vs/
+FoobarSDK/foobar2000/foo_sample/Debug/
+FoobarSDK/foobar2000/foo_sample/x64/
+FoobarSDK/foobar2000/foobar2000_component_client/x64/
+FoobarSDK/foobar2000/helpers/Debug/
+FoobarSDK/foobar2000/helpers/x64/
+FoobarSDK/foobar2000/SDK/x64/
+FoobarSDK/pfc/x64/
